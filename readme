@@ -1,0 +1,21 @@
+how to run
+
+if not installed install:
+    fastapi:
+pip install fastapi
+    uvicorn:
+pip install "uvicorn[standard]"supabase
+
+
+to run: d001-1
+go to terminal run uvicorn [py filename]:app or run main
+then goto
+http://127.0.0.1:5000/zone/time
+
+to run: d001-2
+first create a .env following the .env.example
+then based on your supebase server in the d001-s2 file change your default table name if you wish to use it
+and update the info in the get_select and get_select_name to match with your tables
+go to terminal run uvicorn [py filename]:app or run main
+then goto
+http://127.0.0.1:5000/zone/time
